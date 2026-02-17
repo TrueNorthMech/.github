@@ -36,6 +36,23 @@ Our mission is to bridge the gap between hobbyist tinkering and professional eng
     * Citadel Armor Panels (Fenders/Doors)
 * **Latest Module:** *[Part 11: Citadel Door Panels]*
 
+### 📺 Video Tutorials
+Follow the build step-by-step on **True North Mechatronics**:
+
+| Phase | Part | Component | Video Link |
+| :--- | :--- | :--- | :--- |
+| **01** | 01 | Mobility Platform | [Watch Video](https://youtu.be/DssAKNBRShI) |
+| **01** | 02 | Rail Pedestals | [Watch Video](https://youtu.be/INWWpSs0Jfc) |
+| **01** | 03 | Vertical Frame Rails | [Watch Video](https://youtu.be/07Mjo-Jxmyw) |
+| **02** | 04 | Battery Tray | [Watch Video](https://youtu.be/3kBoWbnahEI) |
+| **02** | 05 | Kinematic Control Tray | [Watch Video](https://youtu.be/apfADt7CrrE) |
+| **02** | 06 | Vetronics Deck | [Watch Video](https://youtu.be/LC0mWSxZ6F8) |
+| **02** | 07 | Accessory Deck | [Watch Video](https://youtu.be/sdpmSdS1Ohg) |
+| **02** | 08 | Integration Hardware | [Watch Video](https://youtu.be/jA_yGPkA_4E) |
+| **02** | 09 | Sensor Mounts | [Watch Video](https://youtu.be/piCkqwuRAwg) |
+| **03** | 10 | Rear Fender Panels | [Watch Video](https://youtu.be/nZj4mN6b92s) |
+| **03** | 11 | Citadel Door Panels | [Watch Video](https://youtu.be/rYPxXLC8NgI) |
+
 #### 2. [SparkBot](https://github.com/TrueNorthMech/SparkBot) ⚡
 * **Type:** Differential Drive (2WD)
 * **Status:** 🟢 *Stable (v1) / v2 In Planning*
