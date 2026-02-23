@@ -20,7 +20,7 @@
 ### 👋 About Us
 Welcome to the official repository for **True North Mechatronics**. We specialize in designing modular, accessible, and rugged robotic platforms using open-source tools. 
 
-Our mission is to bridge the gap between hobbyist tinkering and professional engineering. All our mechanical designs are created in **FreeCAD**, our simulations in **Blender**, and our firmware in **C++/Python**.
+Our mission is to bridge the gap between hobbyist tinkering and professional engineering. All our mechanical designs are created in **FreeCAD**, our simulations in **Blender**, and our firmware in **C++/Python/MicroPython**.
 
 ---
 
@@ -28,13 +28,14 @@ Our mission is to bridge the gap between hobbyist tinkering and professional eng
 
 #### 1. [TitanBot](https://github.com/TrueNorthMech/TitanBot) 🚜
 * **Type:** 4-Wheel Mecanum (Holonomic)
-* **Status:** 🏗️ *In Active Development (Phase 3)*
-* **Description:** A modular, Humvee-inspired autonomous platform designed for education and rapid prototyping.
+* **Status:** 🏗️ *In Active Development (Phase 3: External Armor)*
+* **Description:** A modular, Humvee-inspired autonomous platform designed for education and rapid prototyping. 
 * **Key Features:**
     * Parametric "Frame Rail" Chassis
-    * Integrated Vetronics Deck (Cable Management)
-    * Citadel Armor Panels (Fenders/Doors)
-* **Latest Module:** *[Part 11: Citadel Door Panels]*
+    * Integrated Vetronics & Accessory Decks
+    * Modular Citadel Armor Panels (Fenders/Doors/Cowling)
+* **Next-Gen Hardware Architecture:** Transitioning to a custom-milled PCB (via Carvera Air) featuring an ESP32-S3 N16R8, dual DRV8833 motor drivers, and a PCA9685 PWM controller for superior kinematic control.
+* **Latest Module:** *[Part 14: Citadel Roof Deck]*
 
 ### 📺 Video Tutorials
 Follow the build step-by-step on **True North Mechatronics**:
@@ -52,6 +53,9 @@ Follow the build step-by-step on **True North Mechatronics**:
 | **02** | 09 | Sensor Mounts | [Watch Video](https://youtu.be/piCkqwuRAwg) |
 | **03** | 10 | Rear Fender Panels | [Watch Video](https://youtu.be/nZj4mN6b92s) |
 | **03** | 11 | Citadel Door Panels | [Watch Video](https://youtu.be/rYPxXLC8NgI) |
+| **03** | 12 | Front Fender Panels | [Watch Video](https://youtu.be/9tG4fNEaoJc) |
+| **03** | 13 | Forward Cowling Assembly | [Watch Video](https://youtu.be/pQqxQOr9txY) |
+| **03** | 14 | Citadel Roof Deck | [Watch Video](https://youtu.be/hk3n3e-N5is) |
 
 #### 2. [SparkBot](https://github.com/TrueNorthMech/SparkBot) ⚡
 * **Type:** Differential Drive (2WD)
@@ -67,18 +71,19 @@ Follow the build step-by-step on **True North Mechatronics**:
 | :--- | :--- | :--- | :--- |
 | **01** | TitanBot | 🦴 **Internal Skeleton** (Frame Rails, Mobility) | ✅ Complete |
 | **02** | TitanBot | 🧠 **Internal Systems** (Vetronics, Sensors) | ✅ Complete |
-| **03** | TitanBot | 🛡️ **External Shell** (Fenders, Doors, Hood) | 🚧 **In Progress** |
-| **04** | TitanBot | 💻 **Firmware** (Kinematics, Navigation) | 📅 Planned (Q2) |
+| **03** | TitanBot | 🛡️ **External Shell** (Armor, Cowling, Decking) | 🚧 **In Progress** |
+| **04** | TitanBot | 💻 **Firmware & Custom PCBs** (ESP32-S3 Migration) | 📅 Planned (Q2) |
 | **05** | SparkBot | ⚡ **v2 Redesign** (Simplified Assembly) | 📅 Planned (Q3) |
 
 ---
 
 ### 🛠️ Tech Stack & Tools
 
-* **CAD:** [FreeCAD 1.0.2](https://www.freecad.org/)
+* **CAD/CAM:** [FreeCAD 1.0.2](https://www.freecad.org/)
+* **Manufacturing:** 3D Printing (FDM), Desktop CNC Milling (Carvera Air)
 * **Simulation:** Blender 4.x (Physics & Rendering)
-* **Firmware:** Arduino IDE (C++), MicroPython
-* **Hardware:** ESP32, Arduino Nano, L298N/TB6612 Drivers
+* **Firmware:** VS Code (PlatformIO), Arduino IDE (C++), MicroPython
+* **Hardware:** ESP32-S3 N16R8, Arduino Nano (Legacy), DRV8833, PCA9685, L293D (Legacy)
 
 ---
 
